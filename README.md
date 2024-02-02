@@ -1,24 +1,26 @@
-# Account Manager Application
+# Spotify YouTube Downloader
 
-This is a simple account manager application developed in Python using PyQt5 for the graphical user interface (Built as a homework for my Python class). The application allows users to transfer money between accounts and manages client data, including their account balances.
+The Spotify YouTube Downloader is a Python-based project that seamlessly combines the power of the Spotify API, Pytube, and the youtubesearchpython library to enhance your music experience. With this tool, users can input a Spotify playlist link, allowing the application to extract artist names and song titles as strings. Leveraging the Spotify API, the project dynamically compiles a list of tracks.
 
 ## Table of Contents
 
-- [Introduction](#introduction)
-- [Features](#features)
+- [Description](#description)
+- [Key Features](#key-features)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-## Introduction
+## Description
 
-The Account Manager Application is designed to provide basic account management functionalities such as transferring money between accounts and managing client data. It utilizes Python's object-oriented programming paradigm to implement client and currency classes, as well as a repository class to manage client data.
+The magic begins when the project utilizes the youtubesearchpython library to scour YouTube for the corresponding music videos. Once the search is complete, the downloader component, powered by Pytube, efficiently fetches and downloads the identified songs. This streamlined process ensures that your favorite tracks are readily available for offline enjoyment.
 
-## Features
+## Key Features
 
-- **Graphical User Interface (GUI):** The application provides a user-friendly interface built using PyQt5, allowing users to interact with the system easily.
-- **Client Management:** Users can create, update, and delete client accounts.
-- **Money Transfer:** Users can transfer money between accounts securely.
-- **Persistent Data Storage:** Client data and account balances are stored persistently in a text file ("data.txt"), ensuring data integrity and consistency between sessions.
+- Seamlessly extracts artist names and song titles from a Spotify playlist link.
+- Utilizes the Spotify API to create a dynamic list of tracks.
+- Employs the youtubesearchpython library to find corresponding music videos on YouTube.
+- Downloads the identified songs using the robust Pytube library.
 
 ## Installation
 
@@ -36,8 +38,6 @@ To run the Account Manager Application, follow these steps:
 
         python main.py
 
-
-
 ## Usage
 
 Upon running the application, you'll be presented with a graphical user interface where you can perform various actions, including:
@@ -46,4 +46,12 @@ Upon running the application, you'll be presented with a graphical user interfac
 - Transferring money between accounts
 - Viewing account balances
 - Managing client data
+
+## Contributing
+
+Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request. For major changes, please open an issue first to discuss the proposed changes.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
