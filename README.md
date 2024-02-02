@@ -8,8 +8,6 @@ This is a simple account manager application developed in Python using PyQt5 for
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -41,12 +39,3 @@ Upon running the application, you'll be presented with a graphical user interfac
 - Viewing account balances
 - Managing client data
 
-## Contributing
-
-Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request. For major changes, please open an issue first to discuss the proposed changes.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-   
