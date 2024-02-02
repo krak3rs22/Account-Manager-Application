@@ -9,6 +9,7 @@ This is a simple account manager application developed in Python using PyQt5 for
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
+  
 ## Introduction
 
 The Account Manager Application is designed to provide basic account management functionalities such as transferring money between accounts and managing client data. It utilizes Python's object-oriented programming paradigm to implement client and currency classes, as well as a repository class to manage client data.
@@ -19,7 +20,7 @@ The Account Manager Application is designed to provide basic account management 
 - **Client Management:** Users can create, update, and delete client accounts.
 - **Money Transfer:** Users can transfer money between accounts securely.
 - **Persistent Data Storage:** Client data and account balances are stored persistently in a text file ("data.txt"), ensuring data integrity and consistency between sessions.
-- 
+  
 ## Installation
 
 To run the Account Manager Application, follow these steps:
