@@ -1,6 +1,6 @@
 # Account Manager Application
 
-This is a simple account manager application developed in Python using PyQt5 for the graphical user interface. The application allows users to transfer money between accounts and manages client data, including their account balances.
+This is a simple account manager application developed in Python using PyQt5 for the graphical user interface (Built as a homework for my Python class). The application allows users to transfer money between accounts and manages client data, including their account balances.
 
 ## Table of Contents
 
