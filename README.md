@@ -25,12 +25,15 @@ The Account Manager Application is designed to provide basic account management 
 To run the Account Manager Application, follow these steps:
 
 1. Clone the repository to your local machine:
+
 git clone https://github.com/your_username/account-manager.git
 
 2. Install the required dependencies:
+
 pip install -r requirements.txt
 
 3. Run the application:
+
 python main.py
 
 
